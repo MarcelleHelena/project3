@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM</title>
+    <link rel="stylesheet" href="PMstyle.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand-title">Project Management</div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="gps.html">GPS Map</a></li>
+
+                <li><a href="network.html">Network</a></li>
+                <li><a href="embedded.html">Embedded</a></li>
+                <li><a href="Appendices.html">Appendices</a></li>
+                <li><a href="frontpage.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="PmText">
+        <div class="imgBx">
+            <img src="PMcapitalValue.PNG" class="active">
+            <img src="valueprocanvas.PNG">
+        </div>
+
+
+
+
+        <ul class="controls">
+            <li onclick="PrevSlide();"></li>
+            <li onclick="nextSlide();"></li>
+
+        </ul>
+
+    </section>
+    <script type="text/javascript">
+        const imgBx = document.querySelector('imgBx');
+        const slides = imgBx.getElementsByTagName('img');
+        var i = 0;
+
+        function nextSlide() {
+            slides[i].classList.remove('active');
+            i = (i + 1) % slides.length;
+            slides[i].classList.add('active');
+        }
+        function PrevSlide() {
+            slides[i].classList.remove('active');
+            i = (i - 1 + slides.length) % slides.length;
+            slides[i].classList.add('active');
+        }
+
+    </script>
+
+</body>
+
+</html>
