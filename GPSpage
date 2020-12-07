@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gps Map</title>
+    <link rel="stylesheet" href="gpsstyle.css">
+</head>
+
+<body>
+
+
+
+
+    <section>
+        <div class="navbar-links">
+            <ul>
+
+                <li><a href="PM.html">Project Management</a></li>
+                <li><a href="network.html">Network</a></li>
+                <li><a href="embedded.html">Embedded</a></li>
+                <li><a href="Appendices.html">Appendices</a></li>
+                <li><a href="frontpage.html">Home</a></li>
+            </ul>
+        </div>
+        <video src="smoke.mp4" autoplay muted></video>
+        <h1>
+            <span>G</span>
+            <span>P</span>
+            <span>S</span>
+            <span>M</span>
+            <span>A</span>
+            <span>P</span>
+        </h1>
+    </section>
+</body>
+
+</html>
