@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand-title">HealthPoint</div>
+        <div class="navbar-links">
+            <ul class="navbar-links">
+                <li><a href="gps.html">GPS Map</a></li>
+                <li><a href="PM.html">Project Management</a></li>
+                <li><a href="network.html">Network</a></li>
+                <li><a href="embedded.html">Embedded</a></li>
+                <li><a href="Appendices.html">Appendices</a></li>
+                <li><a href="googlemap.html">Map</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <section class="cards">
+        <div class="container">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Aarhus-map-Denmark.jpg">
+                </div>
+                <div class="content">
+                    <h2>Introduction</h2>
+                    <p>Strokes - among many things is one of the biggest causes of death in the world. Due to lack of
+                        supervision
+                        and
+                        family support to rehabilitate stroke patients or patients with other life-threatening
+                        illnesses,
+                        the number
+                        of
+                        deaths is increasing.</p>
+                    <p>It's because stroke is a neurological disorder that takes a long rehabilitation to overcome. For
+                        those whose
+                        goals are to walk again, having physiotherapists help is the way to do so.
+                        Unfortunately, there has not been a tool in physiotherapy to conduct and save records measuring
+                        travel and
+                        mileage of the patient walking outdoors. It is needed for the physiotherapists analysis and
+                        recommendation
+                        to
+                        fit each individual patient and its needs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Aarhus-map-Denmark.jpg">
+                </div>
+                <div class="content">
+
+                    <p>To apprehend this, we have made a device called Health-Point. It is a Global Positioning
+                        System (GPS)
+                        tracking
+                        model with a build-in temperature, and humidity sensor to record the walking pattern of
+                        the
+                        patient.
+                        With
+                        the
+                        temperature/humidity sensor we can see if a patient works out more or less depending on
+                        the
+                        temperature in
+                        his/her environment. This is fundamental data for the physio-therapist to calculate and
+                        make
+                        the
+                        right plan
+                        for
+                        each person.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Aarhus-map-Denmark.jpg">
+                </div>
+                <div class="content">
+                    <h2>Services</h2>
+                    <p>
+                        An easy to use web-interface works on mobile phones and every other device</p>
+                    <p>ON/OFF button on the device for easy control</p>
+                    <p>All data stored in a big and easy to use database via the web-interface</p>
+                    <p>GPS draw a map of the routes or activities</p>
+                    <p>Environmental temperatures are directly showing life on the interface</p>
+                    <p>An easy to use database of each patient and the ability to view and monitor from
+                        anywhere</p>
+                    <p>24/7 hotline support at Info@HealthPoint.com
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>
