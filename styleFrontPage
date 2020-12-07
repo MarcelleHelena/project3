@@ -1,0 +1,49 @@
+img {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li:hover {
+    background-color: #555;
+}
+.navbar-links li {
+    list-style: none;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+
+}
+
+.container .card .content {
+    visibility: hidden;
+}
+
+.container .card:hover .content  {
+    visibility: visible;
+}
